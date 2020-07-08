@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EPA Observation DataBase</title>
+
+    {% load plotly_dash%}
+
+    {% plotly_header %}
+</head>
+<body>
+    <h1>EPA Observation Plot</h1>
+
+    {%plotly_direct name="dashApp1"%}
+    
+</body>
+    {% plotly_footer %}
+</html>
+
