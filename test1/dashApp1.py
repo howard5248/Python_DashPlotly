@@ -99,7 +99,7 @@ app.layout = html.Div([
                 ),align='center',style={'padding':'10px 20px'}),
             dbc.Row(
                 dbc.Select( id='plotType', 
-                    value='lineChart',
+                    value='mapPlot',
                     options=[{'label': i, 'value': j} for j, i in [('lineChart', '折線圖'), ('mapPlot','全台測站日均值(MAP)')]],
                     ),
                 style={'padding':'10px 20px'}

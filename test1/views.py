@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .models import Stinfo,o2013Obs,o2014Obs,o2015Obs,o2016Obs,o2017Obs,o2018Obs,o2019Obs
+# from .models import Stinfo,o2013Obs,o2014Obs,o2015Obs,o2016Obs,o2017Obs,o2018Obs,o2019Obs
 
 # from django.db.models import Q
 from . import dashApp1
